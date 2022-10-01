@@ -1,0 +1,21 @@
+class person:
+    def __init__(self, name , age , country):
+        self.name = name
+        self.age = age
+        self.country = country
+        
+    def genre(x):
+        print('Hello my name is ' + x.name + " and i have " + str(x.age) + " years old , and i live in "  + x.country)
+        
+        
+
+
+name = input("your name please: ")
+age = input('your age: ')
+country  = input('your country: ')
+
+
+p1 = person(name, age, country)
+
+p1.genre()
+
